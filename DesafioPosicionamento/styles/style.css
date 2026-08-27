@@ -6,32 +6,26 @@ img{
     width: 100px;
 }
 
-.itens-extremidades{
+.config{
     background-color: aquamarine;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
+}
+
+.itens-extremidades{
+    justify-content: space-between;
 }
 
 .itens-around{
-    background-color: aquamarine;
-    display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
 }
 
 .itens-center{
-    background-color: aquamarine;
-    display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 .itens-lateral{
-    background-color: aquamarine;
-    display: flex;
     justify-content: flex-end;
-    margin-bottom: 50px;
 }
 
 .amarelo{
@@ -45,10 +39,7 @@ img{
 }
 
 .bloco-itens{
-    background-color: aquamarine;
-    margin-bottom: 50px;
     height: 960px;
-    display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -63,20 +54,12 @@ img{
 
 .bloco{
     height: 960px;
-    display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: aquamarine;
 }
 
-.inferiorAmarelo{
+.linha{
     background-color: rgb(197, 114, 245);
-    display: flex;
-    justify-content: space-between;
-}
-
-.superiorAmarelo{
- background-color: rgb(197, 114, 245);
     display: flex;
     justify-content: space-between;
 }
