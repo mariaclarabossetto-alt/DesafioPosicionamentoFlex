@@ -60,8 +60,23 @@ img{
 .grupo-maior{
     width: 550px;
 }
+
+.bloco{
+    height: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
 .inferiorAmarelo{
     background-color: rgb(197, 114, 245);
+    display: flex;
+    justify-content: space-between;
+}
+
+.superiorAmarelo{
+ background-color: rgb(197, 114, 245);
     display: flex;
     justify-content: space-between;
 }
